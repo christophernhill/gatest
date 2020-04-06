@@ -1,0 +1,14 @@
+# Simple github actions file
+name: basictest
+
+on:
+    schedule: 
+     # * is a special character in YAML so you have to quote this string
+     - cron:  '*/15 * * * *'
+     
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+     - name: A simple test to understand
+       run: pwd
