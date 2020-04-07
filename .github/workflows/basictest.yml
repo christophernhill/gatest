@@ -12,6 +12,5 @@ jobs:
     steps:
      - name: Clone CLIMA repo
        run: git clone https://github.com/climate-machine/CLIMA.git
-       run: /bin/ls -altr
      - name: A simple test to understand
        run: pwd
