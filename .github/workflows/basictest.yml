@@ -14,3 +14,5 @@ jobs:
        run: git clone https://github.com/climate-machine/CLIMA.git
      - name: A simple test to understand
        run: pwd
+     - name: Show run directory
+       run: /bin/ls -altr
